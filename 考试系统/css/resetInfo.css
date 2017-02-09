@@ -1,0 +1,84 @@
+.myInfo{
+    width: 100%;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+.myInfo>div{
+    width: 100%;
+    height: 44px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.myInfo>div:nth-child(1){
+    margin-top: 0px;
+}
+.myInfo .header_pic{
+    height: 100px;
+    overflow: hidden;
+}
+.myInfo>div>span{
+    line-height: 40px;
+}
+.myInfo>div>input,
+.myInfo>div>select{
+    border: 1px solid #EDEDED;
+    text-indent: 8px;
+}
+.myInfo>div>select{
+    width: 204px;
+    height: 44px;
+}
+.myInfo>div>span,
+.header_pic>img,
+.myInfo>div>input,
+.myInfo>div>select{
+    display: block;
+    float: left;
+    font-size: 18px;
+    color: #333;
+}
+.myInfo>div>span:nth-child(1){
+    width: 120px;
+    text-align: right;
+}
+.header_pic>img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #EDEDED;
+}
+.myInfo .header_pic>span{
+    height: 100px;
+    line-height: 100px;
+}
+.myInfo>div>input,
+.myInfo>div>select{
+    width: 200px;
+    height: 38px;
+}
+.myInfo>div>img,
+.myInfo>div>input,
+.myInfo>div>select{
+    margin-left: 20px;
+}
+.reset_button{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    width: 120px;
+    height: 40px;
+    overflow:hidden;
+    background: #0c7ecd;
+    border: 1px solid #0c7ecd;
+    margin-left: 184px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.myInfo .header_pic>input{
+    display: none;
+}

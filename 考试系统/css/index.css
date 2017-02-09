@@ -1,0 +1,120 @@
+.wrap{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #0d7ecc;
+    position:relative;
+}
+.main{
+    width: 580px;
+    height: 430px;
+    overflow: hidden;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -290px;
+    margin-top: -200px;
+    overflow: hidden;
+}
+.main>p:nth-child(1){
+    font-size: 36px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    line-height: 38px;
+    height: 38px;
+    margin-top: 10px;
+    letter-spacing:8px;
+}
+.main>div{
+    width: 460px;
+    height: 255px;
+    background: #e8f2fe;
+    border-radius: 15px;
+    margin: 64px auto 24px;
+    overflow: hidden;
+}
+.main>p:nth-child(3){
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.logo{
+    width: 124px;
+    height: 30px;
+    background: #408c10;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin-left: 30px;
+    letter-spacing: 1.5px;
+}
+.form{
+    width: 330px;
+    height: 40px;
+    overflow: hidden;
+    margin: 15px auto 0px;
+}
+.one{
+    text-indent: 1em;
+}
+.two{
+    text-indent: 2em;
+}
+.form>label,
+.form>input,
+.form>select{
+    float: left;
+    font-size: 16px;
+    display: block;
+    color: #333;
+}
+.form>select{
+    color: #b6b6b6;
+}
+.form>select>option{
+    color:#333;
+}
+.form>select>option:nth-child(1){
+    color:#b6b6b6;
+}
+.form>select>option{
+    color:#333;
+}
+.form>label{
+    height: 40px;
+    line-height:40px;
+    color: #174660;
+}
+.form>input,
+.form>select{
+    width: 230px;
+    height:38px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    text-indent: 8px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.button{
+    width: 100%;
+    height: 30px;
+    margin-top: 15px;
+}
+.button>a{
+    text-align: center;
+    display: block;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+    font-size: 14px;
+    background: #0d7ecc;
+    float: left;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 188px;
+}

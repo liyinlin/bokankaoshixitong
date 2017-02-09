@@ -1,0 +1,221 @@
+.wrap{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.main>div{
+    float: left;
+}
+.left{
+    width: 15%;
+    background: #efefef;
+    overflow-y:auto;
+    overflow-x: hidden;
+    nin-height: 100%;
+    border-right:1px solid #ccc;
+}
+.right{
+    width: 82%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-left: 20px;
+}
+.per_info{
+    width: 90%;
+    height: 112px;
+    background: #fff;
+    margin: 10px auto 15px;
+    box-shadow: -1px 1px 5px #000;
+}
+.per_info>div{
+    float: left;
+}
+.per_info>div:nth-child(1){
+     width: 45%;
+}
+.per_info>div:nth-child(2){
+    width: 55%;
+    margin-top: 12px;
+}
+.pic_per>img{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    display: block;
+    margin: 25px auto;
+}
+.infoPer>div{
+    width: 100%;
+    color: #666;
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+}
+.exam_infos{
+    width: 100%;
+    width: 100%;
+    margin: 15px auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: -1px 1px 5px #000;
+}
+.class_exam{
+    width: 100%;
+    overflow: hidden;
+}
+.class_exam>p{
+    width: 90%;
+    height: 30px;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 30px;
+    background: #efefef;
+    margin: 10px auto 0px;
+    text-indent: 8px;
+    border-radius: 2px;
+}
+.class_exam>ul{
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.class_exam>ul li{
+     width: 20%;
+    float: left;
+    margin-top: 6px;
+}
+.class_exam>ul li>div{
+    width: 29px;
+    height: 29px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 29px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 1px;
+}
+.name{
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    font-size: 16px;
+    color: #666;
+}
+.content{
+    width: 100%;
+    overflow: hidden;
+}
+.content>div{
+    width: 100%;
+    font-size: 30px;
+    height: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+.time{
+    font-size: 16px;
+    text-align: center;
+    height: 16px;
+    line-height: 16px;
+    color: #666;
+    margin-top: 20px;
+}
+.time>span{
+    color:#ff6000;
+    margin-left: 5px;
+}
+.exam_info{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.exam_info>li{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+.exam_info>li>div:nth-child(1){
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    color: #666;
+    background: #efefef;
+    text-indent: 8px;
+    line-height: 30px;
+}
+.exam_info>li>div:nth-child(1)>span{
+    font-size: 20px;
+    color: #333;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.list_an{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.list_an>li{
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #666;
+    margin-left: 30px;
+}
+.your_an{
+    width: 100%;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.your_an>div,
+.your_an>p{
+    float: left;
+    font-size: 16px;
+}
+.your_an>div{
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+.your_an>div>input{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.next{
+    display: block;
+    border: 1px solid #006cc1;
+    color: #006cc1;
+    width: 90px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    font-size: 14px;
+    float: left;
+    margin-left: 30%;
+}
+.exam_infos>div>ul{
+    display: none;
+}
+.exam_info>li{
+    display: none;
+}
+.color1{
+    color: #fff;
+    background: #00aa00;
+}
+.color2{
+    color: #fff;
+    background: red;
+}
+.big{
+    font-size: 28px;
+    text-align: center;
+    margin: 40px auto 0px;
+}
